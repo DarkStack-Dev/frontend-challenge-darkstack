@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         rates: {}, // Armazenará as taxas de câmbio
         lastUpdate: null, // Data da última atualização
         history: [], // Histórico de conversões
-        loading: false, // Indicador de carregamento
+        loading: false, // Indicador de carregamento 
     };
 
     const API_URL = 'https://api.exchangerate-api.com/v4/latest/USD';

@@ -18,7 +18,7 @@ Após a instalação, entre na pasta do projeto:
 cd conversor-de-moedas
 ```
 
-E inicie o servidor de desenvolvimento:
+E inicie o servidor de desenvolvimento: 
 
 ```bash
 npm run dev

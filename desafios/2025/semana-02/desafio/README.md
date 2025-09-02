@@ -270,3 +270,4 @@ https://api.currencyapi.com/v3/latest?apikey=SUA_CHAVE
 - XE Currency Converter  
 - Wise Currency Converter
 - Aplicativos mobile de bancos
+
