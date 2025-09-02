@@ -1,0 +1,150 @@
+/* -------------------------------------------------------------------
+  🎨 DESAFIO: CONVERSOR DE MOEDAS - ARQUIVO DE ESTILOS (CSS) 🎨
+  -------------------------------------------------------------------
+  Complete as regras de estilo abaixo para construir a interface.
+*/
+
+/* TODO: Defina as variáveis de cor globais.
+  Isso facilita a manutenção e a consistência do design.
+  Exemplo:
+  --primary-color: #10b981;
+  --background-color: #f9fafb;
+  --text-color: #111827;
+  --card-background: #ffffff;
+  --border-color: #d1d5db;
+*/
+:root {
+    /* Adicione suas variáveis de cor aqui */
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: sans-serif;
+    /* TODO: Use as variáveis para definir a cor de fundo e a cor do texto. */
+    
+    
+    /* TODO: Centralize o conteúdo da página. Use Flexbox. */
+    display: flex;
+
+    /* TODO: Garanta que o body ocupe a altura total da tela. */
+
+}
+
+/* Estilo do card principal que envolve a aplicação */
+.converter-card {
+    /* TODO: Use as variáveis para a cor de fundo do card. */
+
+    /* TODO: Adicione um preenchimento interno (padding). */
+    
+    /* TODO: Adicione bordas arredondadas (border-radius). */
+    
+    /* TODO: Adicione uma borda sutil (border). */
+    
+    /* TODO: Adicione uma sombra (box-shadow) para dar profundidade. */
+    
+    /* TODO: Defina uma largura máxima (max-width) para o card. */
+    
+}
+
+/* Cabeçalho */
+.text-center {
+    /* TODO: Centralize o texto do cabeçalho. */
+
+}
+
+.text-center h1 {
+    /* TODO: Aumente o tamanho da fonte do título principal. */
+
+}
+
+/* Formulário de conversão */
+.converter-form {
+    /* TODO: Organize os elementos do formulário. Use Flexbox ou Grid. */
+    
+    /* TODO: Adicione um espaçamento entre os elementos. */
+    
+}
+
+/* Estilo para os inputs e selects */
+.converter-form input,
+.converter-form select,
+button {
+    /* TODO: Adicione preenchimento (padding) e borda. */
+    
+    /* TODO: Defina um tamanho de fonte e bordas arredondadas. */
+    
+}
+
+/* Estilo específico para o botão de troca de moedas */
+#swapButton {
+    /* TODO: Defina uma cor de fundo e remova a borda se desejar. */
+    
+}
+
+/* Área de exibição do resultado */
+.result-display {
+    /* TODO: Adicione margem no topo para separar do formulário. */
+    
+    /* TODO: Centralize o texto. */
+    
+}
+
+#resultAmount {
+    /* TODO: Deixe a fonte do resultado em destaque (maior e mais grossa). */
+    
+}
+
+/* Seção do histórico */
+.history-section h2 {
+    /* TODO: Adicione uma margem abaixo do título do histórico. */
+    
+}
+
+.history-header {
+    /* TODO: Use Flexbox para alinhar o título e o botão de limpar. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#historyList {
+    /* TODO: Remova os marcadores da lista e o preenchimento padrão. */
+    list-style-type: none;
+    padding: 0;
+}
+
+#historyList li {
+    /* TODO: Adicione uma borda inferior para separar os itens e um preenchimento. */
+    
+}
+
+/* Animação de Loading */
+.loader {
+    /* TODO: Crie um spinner. Defina uma borda e uma borda superior com cor diferente. */
+    border: 4px solid #f3f3f3; /* Cinza claro */
+    border-top: 4px solid #10b981; /* Verde */
+
+    /* TODO: Adicione bordas arredondadas para formar um círculo e defina altura/largura. */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+    /* TODO: Adicione a animação 'spin'. */
+    animation: spin 1s linear infinite;
+
+    /* TODO: Centralize o loader. */
+    margin: 20px auto;
+}
+
+.hidden {
+    /* TODO: Crie a classe para esconder elementos. */
+    display: none;
+}
+
+/* Keyframes para a animação do loader */
+@keyframes spin {
+    /* TODO: Defina a rotação de 0 a 360 graus. */
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 Conversor de Moedas</title>
+    
+    <!-- Link para o arquivo de estilos CSS. Verifique se o nome do arquivo corresponde. -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- O atributo 'defer' garante que o script JS só será executado após o HTML ser totalmente lido. -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Container principal da aplicação -->
+    <div class="converter-card">
+
+        <!-- 
+            TODO: Adicione o cabeçalho principal aqui.
+            Exemplo: 
+            <div class="text-center">
+                <h1>💱 Conversor de Moedas</h1>
+                <p>Cotações em tempo real</p>
+            </div> 
+        -->
+
+        <!-- Seção de conversão principal (Formulário) -->
+        <div class="converter-form">
+            
+            <!-- 
+                TODO: Crie a estrutura para a conversão.
+                Dica: Use divs para organizar os elementos. Você precisará de:
+                1. Um <select> para a moeda de ORIGEM (sugestão de id: "fromCurrency")
+                2. Um <button> para TROCAR as moedas (sugestão de id: "swapButton")
+                3. Um <select> para a moeda de DESTINO (sugestão de id: "toCurrency")
+                4. Um <input type="number"> para o VALOR a ser convertido (sugestão de id: "amount")
+                Não se esqueça das <label>s para acessibilidade!
+            -->
+
+        </div>
+
+        <!-- Seção para exibir o resultado da conversão -->
+        <div class="result-display">
+            
+            <!-- 
+                TODO: Crie os elementos para exibir o resultado.
+                Você precisará de elementos (como <p> ou <span>) para mostrar:
+                1. O resultado da conversão (sugestão de id: "resultAmount")
+                2. A taxa de câmbio (sugestão de id: "exchangeRate")
+                3. A data da última atualização (sugestão de id: "lastUpdate")
+            -->
+            
+            <!-- Elemento de loading (inicialmente oculto). O JS irá controlar a visibilidade. -->
+            <div id="loader" class="loader hidden"></div>
+        </div>
+
+        <!-- Seção do histórico de conversões -->
+        <div class="history-section">
+            <div class="history-header">
+                <h2>📊 Histórico</h2>
+                <!-- 
+                    TODO: Adicione o botão para limpar o histórico aqui.
+                    Sugestão de id: "clearHistoryButton"
+                -->
+            </div>
+            
+            <!-- 
+                TODO: Crie a lista para o histórico.
+                Use uma lista não ordenada (<ul>) para mostrar as conversões.
+                Sugestão de id: "historyList"
+            -->
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
+
